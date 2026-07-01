@@ -4,50 +4,50 @@ import { ChevronLeft, ChevronRight, Plus, ArrowRight, MessageSquare, GitBranch, 
 const carouselCards = [
   {
     id: 1,
-    category: "Запросы клиентов",
-    title: "Создавайте то, что нужно клиентам",
+    category: "Анализ домена",
+    title: "ИИ изучает ваш сайт и продукт",
     icon: ArrowRight,
     mockup: "intercom",
   },
   {
     id: 2,
-    category: "Git-интеграция",
-    title: "Автоматизируйте PR и коммиты",
+    category: "Публикация",
+    title: "Автопостинг статей по расписанию",
     icon: Plus,
     mockup: "github",
   },
   {
     id: 3,
-    category: "Orbit Mobile",
-    title: "Управляйте работой откуда угодно",
+    category: "Мобильный доступ",
+    title: "Следите за трафиком откуда угодно",
     icon: ArrowRight,
     mockup: "mobile",
   },
   {
     id: 4,
-    category: "Orbit Asks",
-    title: "Превращайте запросы в задачи",
+    category: "Проверка фактов",
+    title: "Антигаллюцинации и достоверность",
     icon: ArrowRight,
     mockup: "asks",
   },
   {
     id: 5,
-    category: "Интеграции Orbit",
-    title: "100+ способов расширить возможности",
+    category: "Источники данных",
+    title: "GPT, Wordstat, Yandex, Google, YouTube",
     icon: ArrowRight,
     mockup: "integrations",
   },
   {
     id: 6,
-    category: "Интеграция с Figma",
-    title: "Связь между разработкой и дизайном",
+    category: "Изображения",
+    title: "Картинки и видео прямо в статьях",
     icon: ArrowRight,
     mockup: "figma",
   },
   {
     id: 7,
-    category: "Для разработчиков",
-    title: "Создавайте плагины через Orbit API",
+    category: "Для интеграций",
+    title: "Подключение к вашей CMS по API",
     icon: ArrowRight,
     mockup: "api",
   },
@@ -249,16 +249,16 @@ export function WorkflowsSection() {
 
             {/* Heading */}
             <h2 className="text-4xl md:text-5xl font-medium text-white leading-[1.1]">
-              Работайте слаженно
+              Весь контент-цикл
               <br />
-              между инструментами
+              на автопилоте
             </h2>
           </div>
 
           {/* Description */}
           <p className="text-zinc-400 lg:max-w-sm lg:pt-12">
-            Расширьте возможности Orbit с помощью интеграций, которые синхронизируют всю команду и держат фокус на
-            главном.
+            От анализа домена до публикации и перелинковки — ИИ проходит весь путь создания SEO-статьи
+            за вас.
           </p>
         </div>
 

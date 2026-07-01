@@ -2,12 +2,12 @@ import { motion } from "framer-motion"
 import { ChevronRight, Check, Paperclip, Globe, Lightbulb } from "lucide-react"
 
 const agents = [
-  { name: "Cursor", isAgent: true, selected: true, icon: "◇" },
-  { name: "GitHub Copilot", isAgent: true, selected: false, icon: "◉" },
-  { name: "Sentry", isAgent: true, selected: false, icon: "◈" },
-  { name: "Leela", isAgent: false, selected: false, icon: "○" },
-  { name: "Codex", isAgent: true, selected: false, icon: "◎" },
-  { name: "Conor", isAgent: false, selected: false, icon: "○" },
+  { name: "GPT + Wordstat — 100 запросов", isAgent: true, selected: true, icon: "◇" },
+  { name: "Yandex SERP — топ конкурентов", isAgent: true, selected: false, icon: "◉" },
+  { name: "Google — парсинг и research", isAgent: true, selected: false, icon: "◈" },
+  { name: "NotebookLM — глубинный анализ", isAgent: false, selected: false, icon: "○" },
+  { name: "YouTube — видео для статьи", isAgent: true, selected: false, icon: "◎" },
+  { name: "Новости отрасли", isAgent: false, selected: false, icon: "○" },
 ]
 
 export function AISection() {
@@ -31,7 +31,7 @@ export function AISection() {
             className="flex items-center gap-2 mb-6"
           >
             <div className="w-2 h-2 rounded-full bg-blue-500" />
-            <span className="text-zinc-400 text-sm">Искусственный интеллект</span>
+            <span className="text-zinc-400 text-sm">Исследование и источники данных</span>
             <ChevronRight className="w-4 h-4 text-zinc-500" />
           </motion.div>
 
@@ -49,7 +49,7 @@ export function AISection() {
               lineHeight: 1.1,
             }}
           >
-            Разработка с ИИ-помощником
+Статьи на основе реальных данных
           </motion.h2>
 
           {/* Description */}
@@ -60,8 +60,8 @@ export function AISection() {
             transition={{ duration: 0.6, delay: 0.2 }}
             className="text-zinc-400 max-w-md mb-8"
           >
-            <span className="text-white font-medium">Orbit для агентов.</span> Выбирайте из множества ИИ-агентов и
-            делегируйте задачи: от генерации кода до других технических задач.
+            <span className="text-white font-medium">Ключевые слова и research.</span> Собираем запросы через GPT
+            и Wordstat, изучаем Yandex SERP и топ конкурентов, добавляем видео с YouTube и свежие новости.
           </motion.p>
 
           {/* Learn more button */}
@@ -200,9 +200,9 @@ export function AISection() {
             <div className="grid grid-cols-1 md:grid-cols-2">
               {/* Left column */}
               <div className="border-t border-r border-b border-zinc-800/60 pt-12 pr-12 pb-16">
-                <h3 className="text-zinc-200 font-medium text-xl mb-3">Автопилот для продукта</h3>
+                <h3 className="text-zinc-200 font-medium text-xl mb-3">Проверка фактов и антигаллюцинации</h3>
                 <p className="text-zinc-500 text-base mb-8">
-                  Оптимизируйте рабочие процессы с ИИ-ассистентом для рутинных и ручных задач.
+                  ИИ размышляет и перепроверяет каждый факт по источникам — без выдумок и ошибок.
                 </p>
 
                 {/* Triage Intelligence Card */}
@@ -282,9 +282,9 @@ export function AISection() {
 
               {/* Right column */}
               <div className="border-t border-b border-zinc-800/60 pt-12 pl-12 pb-16">
-                <h3 className="text-zinc-200 font-medium text-xl mb-3">Orbit MCP</h3>
+                <h3 className="text-zinc-200 font-medium text-xl mb-3">JSON-LD и A/B мета-теги</h3>
                 <p className="text-zinc-500 text-base mb-8">
-                  Подключите Orbit к любимым инструментам: Cursor, Claude, ChatGPT и другим.
+                  Автоматическая схема BlogPosting + FAQPage и A/B варианты мета-тегов для SEO, CTR и AEO.
                 </p>
 
                 {/* MCP Code Snippet */}

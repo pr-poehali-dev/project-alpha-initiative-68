@@ -24,7 +24,7 @@ export function LogoCloud() {
             transition={{ duration: 0.6 }}
             className="text-lg text-zinc-300 mb-2"
           >
-            Выбор лучших продуктовых команд мира.
+            Нам доверяют растущие компании и агентства.
           </motion.p>
           <motion.p
             initial={{ opacity: 0, y: 20 }}
@@ -33,7 +33,7 @@ export function LogoCloud() {
             transition={{ duration: 0.6, delay: 0.1 }}
             className="text-lg text-zinc-500 mb-16"
           >
-            От амбициозных стартапов до крупных корпораций.
+            От SaaS-стартапов до интернет-магазинов и B2B-сервисов.
           </motion.p>
 
           <motion.div
